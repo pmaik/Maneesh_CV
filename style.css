@@ -72,12 +72,12 @@
   .top-cloud{
     position: absolute;
     top:280px;
-    right:300px;
+    right:250px;
   }
 
   .bottom-cloud{
     position: absolute;
-    top:550px;
+    top:600px;
     left:280px;
   }
 
