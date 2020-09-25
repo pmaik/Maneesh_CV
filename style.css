@@ -63,7 +63,7 @@
     font-family: Arial;
     list-style-type: none;
     text-align: left;
-    margin-left: 400px;
+    margin-left: 50px;
   }
   #id1{
     margin-top: 0;
@@ -72,12 +72,12 @@
   .top-cloud{
     position: absolute;
     top:280px;
-    right:200px;
+    right:20px;
   }
 
   .bottom-cloud{
     position: absolute;
-    top:700px;
+    top:1000px;
     left:280px;
   }
 
