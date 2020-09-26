@@ -1,123 +1,170 @@
-  body {
-    background-color: #E4F9F5;
-    text-align: center;
-  }
-  .my_img{
-    margin-top: 100px;
-    width:200px;
-    height: 200px;
-  }
+body {
+  background-color: #E4F9F5;
+  text-align: center;
+}
+.my_img{
+  margin-top: 100px;
+  width:200px;
+  height: 200px;
+}
 
-  h1{
-    color: #132743;
-    font-size: 4rem;
-    font-family: 'Sacramento', cursive;
-    margin-bottom: 0;
-  }
-  h2{
-    font-family: 'Kalam', cursive;
-    margin-top: 0;
-    font-size: 2rem;
-    color: #006a71;
-    margin-bottom: 0;
-  }
-  h3{
-    font-family: 'Montserrat', sans-serif;
-  }
-  strong{
-    text-decoration: underline;
-  }
-  .container-2{
-    margin-top: 30px;
-    margin-bottom: 50px;
-    font-size: 1.2rem;
-  }
-  .container-3{
-    margin-bottom: 20px;
-    font-size: 1.15rem;
-  }
-  .container-3{
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-  }
+h1{
+  color: #132743;
+  font-size: 4rem;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 0;
+}
+h2{
+  font-family: 'Kalam', cursive;
+  margin-top: 0;
+  font-size: 2rem;
+  color: #006a71;
+  margin-bottom: 0;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+strong{
+  text-decoration: underline;
+}
+.skill-row{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.coding{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 30px;
+  float: left;
+}
+.Development{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 30px;
+  float:right
+}
 
-  .container-5{
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-  }
-  .container-6{
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-  }
-  .container-7{
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-  }
-  .container-8{
-    margin-bottom: 20px;
-    font-size: 1.5rem;
-  }
+.txt{
+  margin-top: 0px;
+}
 
-  ul{
-    style="font-size: 16px;
-    font-family: Arial;
-    list-style-type: none;
-    text-align: left;
-    margin-left: 400px;
-  }
-  #id1{
-    margin-top: 0;
-  }
+.hobbies-row{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 3.5;
+}
+.travel-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 30px;
+  float: left;
+}
+.movie-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 30px;
+  float:right
+}
 
-  .top-cloud{
-    position: absolute;
-    top:280px;
-    right:350px;
-  }
+.container-2{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+}
+.container-3{
+  margin-bottom: 20px;
+  font-size: 1.15rem;
+}
+.container-3{
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
 
-  .bottom-cloud{
-    position: absolute;
-    top:500px;
-    left:300px;
-  }
+.container-6{
+  margin-top: 130px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+.container-7{
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+.container-8{
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+.container-8 img{
+  width: 40px;
+  height: 40px;
+}
 
-  table{
-    margin: auto;
-  }
+ul{
+  style="font-size: 16px;
+  font-family: Arial;
+  list-style-type: none;
+  text-align: left;
+  margin-left: 400px;
+}
+#id1{
+  margin-top: 0;
+}
 
-  hr{
-    border-color: #f76a8c;
-    border-width: 3px;
-    width: 100%;
-    height: 1px;
-    border-style: solid none none;
-    /* border-style: none; */
-    border-top-style: dotted;
-    text-align:left;
-  }
+.top-cloud{
+  position: absolute;
+  top:280px;
+  right:350px;
+}
 
-  a{
-    color:blue;
-  }
+.bottom-cloud{
+  position: absolute;
+  top:500px;
+  left:300px;
+}
 
-  .footer-link{
-    margin: 5px;
-  }
+table{
+  margin: auto;
+}
 
-  .class1{
-    /* color: #111d5e; */
-    color: #00bcd4;
-  }
- .gif{
-   width:300px;
-   height: 200px;
- }
-  .gif0{
-   heigh:300px;
- }
+hr{
+  border-color: #f76a8c;
+  border-width: 3px;
+  width: 100%;
+  height: 1px;
+  border-style: solid none none;
+  /* border-style: none; */
+  border-top-style: dotted;
+  text-align:left;
+}
 
- .gif1{
-   width: 400px;
-   height:350px;
-   margin-bottom: 50px;
- }
+a{
+  color:blue;
+}
+
+.footer-link{
+  margin: 5px;
+}
+
+.class1{
+  color: #00bcd4;
+  margin-bottom: 0px;
+}
+.gif{
+ width:300px;
+ height: 200px;
+}
+.gif0{
+ heigh:300px;
+}
+
+.gif1{
+ width: 400px;
+ height:350px;
+ margin-bottom: 50px;
+}
