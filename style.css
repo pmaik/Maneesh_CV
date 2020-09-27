@@ -1,11 +1,25 @@
 body {
+  /* color: #40584F; */
   background-color: #E4F9F5;
   text-align: center;
+  margin-bottom: 0;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .my_img{
-  margin-top: 100px;
+  margin-top: 50px;
   width:200px;
   height: 200px;
+}
+.top-cloud{
+  position: absolute;
+  top:220px;
+  right:350px;
+}
+.bottom-cloud{
+  position: absolute;
+  top:500px;
+  left:300px;
 }
 
 h1{
@@ -24,9 +38,63 @@ h2{
 h3{
   font-family: 'Montserrat', sans-serif;
 }
+.class1{
+  color: #00bcd4;
+  margin-bottom: 0px;
+}
 strong{
   text-decoration: underline;
 }
+
+.container-2{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  margin-bottom: 100px;
+}
+.container-3{
+  margin-bottom: 20px;
+  font-size: 1.15rem;
+}
+.container-4{
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+}
+
+.Hobbies{
+    margin-bottom: 100px;
+}
+.hobbies-row-1{
+  width: 50%;
+  margin: 20px auto 100px auto;
+  text-align: left;
+  line-height: 3.5;
+}
+.hobbies-row-2{
+  width: 50%;
+  padding-top: 50px;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 3.5;
+}
+.travel-img{
+  width: 210px;
+  height: 250px;
+  border-radius: 50%;
+  margin-right: 30px;
+  float: left;
+}
+.movie-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 30px;
+  float:right
+}
+.txt{
+  margin-top: 0px;
+}
+
 .skill-row{
   width: 50%;
   margin: 50px auto 100px auto;
@@ -39,7 +107,9 @@ strong{
   border-radius: 50%;
   margin-right: 30px;
   float: left;
+  /* clear:left;  is used as anti float */
 }
+
 .Development{
   width: 200px;
   height: 200px;
@@ -48,95 +118,38 @@ strong{
   float:right
 }
 
-.txt{
-  margin-top: 0px;
-}
-
-.hobbies-row{
-  width: 50%;
-  margin: 20px auto 100px auto;
-  text-align: left;
-  line-height: 3.5;
-}
-.travel-img{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-right: 30px;
-  float: left;
-}
-.movie-img{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin-left: 30px;
-  float:right
-}
-
-.container-2{
-  margin-top: 30px;
-  margin-bottom: 50px;
-  font-size: 1.2rem;
-}
-.container-3{
-  margin-bottom: 20px;
-  font-size: 1.15rem;
-}
-.container-3{
-  margin-bottom: 20px;
-  font-size: 1.5rem;
-}
-
 .container-6{
   margin-top: 130px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-size: 1.5rem;
 }
 .container-7{
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   font-size: 1.5rem;
 }
 .container-8{
-  margin-bottom: 20px;
+
+  padding-top: 30px;
   font-size: 1.5rem;
+  background-color: skyblue;
 }
 .container-8 img{
   width: 40px;
   height: 40px;
 }
-
-ul{
-  style="font-size: 16px;
-  font-family: Arial;
-  list-style-type: none;
-  text-align: left;
-  margin-left: 400px;
-}
 #id1{
   margin-top: 0;
 }
-
-.top-cloud{
-  position: absolute;
-  top:280px;
-  right:350px;
-}
-
-.bottom-cloud{
-  position: absolute;
-  top:500px;
-  left:300px;
-}
-
 table{
   margin: auto;
 }
 
 hr{
-  border-color: #f76a8c;
+  border-color: #a6a6a4;
   border-width: 3px;
-  width: 100%;
+  width: 10%;
   height: 1px;
+  margin: 50px auto;
   border-style: solid none none;
   /* border-style: none; */
   border-top-style: dotted;
@@ -151,10 +164,6 @@ a{
   margin: 5px;
 }
 
-.class1{
-  color: #00bcd4;
-  margin-bottom: 0px;
-}
 .gif{
  width:300px;
  height: 200px;
@@ -167,4 +176,41 @@ a{
  width: 400px;
  height:350px;
  margin-bottom: 50px;
+}
+
+.myButton {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+  background-color:#019ad2;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.myButton:hover {
+  background-color:#ff5bb0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.txt1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #006a71;
+  font-family: 'Kalam', cursive;
+}
+.thanku{
+  font-family: 'Kalam' cursive;
+  margin-top: 0;
+  font-size: 2rem;
+  color: #e11d74;
+  margin-bottom: 0;
 }
